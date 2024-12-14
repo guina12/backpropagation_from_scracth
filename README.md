@@ -89,7 +89,8 @@
       for j in range(Xb.shape[1]):
         ix = Xb[k,j]
         dC[ix] +=demb[k,j]
-      
+```
+## 2 - References
 
- 
-
+- [Andrej Karpathy's Micrograd](https://github.com/karpathy/nn-zero-to-hero)
+- Deep Learning : Backpropagation 
